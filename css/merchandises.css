@@ -10,7 +10,6 @@ a{
     text-decoration: none;
 }
 
-/* header */
 header{
     display: flex;
     justify-content: space-between;
@@ -111,62 +110,74 @@ li{
     color: rgb(223, 66, 66);
 }
 
-/* body */
-.body{
-    background-color: #303338;
-}
-
-.bg{
-    background-image: url(../assets/pic4.jpg);
-    background-size: cover;
-    padding: 220px 0;
-    text-align: center;
-    color: #e8eaeb;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif, serif;
-    font-size: 50px;
-}
-
-.text{
-    color: #e8eaeb;
-    text-align: center;
-    font-size: x-large;
-    padding: 50px 250px;
-    font-family: 'Courier New', Courier, monospace, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.game-view{
+.apparrels{
+    background-color: rgba(54, 53, 53, 0.089);
+    border: 3px solid #232327;
+    box-shadow: 0 0 10px rgba(54, 53, 53, 0.089) ;
+    margin: 10px 100px;
     display: flex;
     flex-direction: column;
 }
 
-.overview{
-    font-size: 50px;
-    text-align: center;
-    padding: 50px 0;
-    color: #e8eaeb;
-    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
+.judul{
+    margin:0 100px;
+    border-bottom: 4px solid #e8eaeb;
+    color: rgb(255, 27, 27);
 }
 
-.slider{
+.search{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
+    justify-content: flex-end;
 }
 
-.slider img{
-    width: 70%;
-    height: 600px;
+.search-item{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 100px;
 }
 
-.arrow{
-    margin: 0 30px;
+.nomor{
+    color: #e8eaeb ;
+    margin-left: 5px;
+}
+
+body{
+    height: 100vw;
     background-color: #303338;
-    color: white;
 }
 
-/* footer */
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.text{
+    color: #e8eaeb;
+    text-align: left;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.collectibles{
+    margin: 10px 100px;
+    border: 3px solid #232327;
+    box-shadow: 0 0 10px rgba(54, 53, 53, 0.089);
+}
+
+.item{
+    padding: 20px 100px;
+}
+
+main .item p{
+    color: #e8eaeb;
+    text-align: center;
+}
+
 footer {
     padding: 20px;
     background-color: #232327;
